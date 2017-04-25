@@ -1,0 +1,206 @@
+.box, .box-form {
+
+	float: left;
+	width: 640px;
+	margin: 20px 20px 30px 20px;
+}
+.box-form {
+	margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+}
+h1 {
+	font-size: 36px;
+	margin-bottom: 6px;
+}
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #ff0000;
+}
+a:hover, a:focus, a:active {
+	color: #000000;
+}
+
+.justify {
+	text-align: justify;
+}
+.box ul {
+	margin: 0 0 20px 0;
+	padding-top: 5px;
+	border-top: 1px solid #eeeeee;
+}
+.box li {
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 15px;
+	background: url(bullet.gif) no-repeat 0 4px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	float: left;
+}
+legend {
+	padding-bottom: 5px;
+	font-size: 24px;
+	color: #FF0000;
+}
+
+.form-field {
+	height: 35px;
+	padding: 10px 0;
+	border-top: 1px solid #eeeeee;
+	float: left;
+	display: inline;
+	width: 100%;
+}
+label {
+	float: left;
+	display: inline;
+	width: 140px;
+	line-height: 2;
+	margin-right: 50px;
+	text-align: right;
+	white-space: nowrap;
+}
+input, textarea {
+	float: left;
+	display: inline;
+	width: 300px;
+	border: 1px solid #999999;
+	padding: 3px;
+	font-size: 12px;
+	background: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+	overflow: auto;
+}
+input[type="checkbox"] {
+	width: auto;
+	float: left;
+	display: inline;
+}
+
+input.button {
+
+	border: none;
+	width: auto;
+	margin-left: 160px;
+	font-size: 18px;
+	color: white;
+	background-color: rgba(4, 73, 160, 0.83);
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+input:focus, textarea:focus, input.invalid:focus, textarea.invalid:focus {
+	border: 1px solid #000000;
+	background: #eeeeee;
+}
+input.invalid, textarea.invalid {
+	border: 1px solid #FF0000;
+}
+
+form span {
+	float: left;
+	display: inline;
+	margin: 0 15px 0 5px;
+}
+form strong {
+	color: #FF0000
+}
+form div:last-of-type {
+	padding-bottom: 0;
+}
+
+/*
+
+ Protoform message & error customizations
+
+ */
+
+.protoform-message {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+/* ul.error */
+.protoform-message ul {
+	border-top: 1px solid #eeeeee;
+	margin: 5px 0 0 0;
+	padding: 5px 0 0 0;
+}
+
+.protoform-message ul li {
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 15px;
+	background: url(bullet.gif) no-repeat 0 4px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.protoform-message p.working {
+	float: left;
+	padding: 20px 20px 20px 30px;
+	background: url(loading.gif) no-repeat left center;
+}
+
+/*
+
+ Protoform stylesheets end
+
+ */
+
+pre {
+	margin-top: 10px;
+	padding: 5px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	background: #eeeeee;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+pre code {
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+}
+pre, code {
+	font: 100% "monospaced", monospace;
+	*font-size: 100%;
+}
+
+html body div.clear, html body span.clear {
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
